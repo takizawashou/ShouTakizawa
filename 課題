@@ -11,7 +11,7 @@ public class Main {
         float floatVar = 0.0f ;
         floatVar = 9.5f ;
         double doubleVar = 0.0 ;
-        doubleVar = 10.5f ;
+        doubleVar = 10.5 ;
         char charVar = '¥u0000' ;
         charVar = 'a' ;
         String stringVar = "なし" ;
@@ -32,5 +32,27 @@ public class Main {
         System.out.println(byteVar * shortVar * intVar * longVar) ;
         System.out.println(doubleVar / shortVar) ;
         System.out.println(byteVar - shortVar) ;
+        
+        int num=20 ;
+        int num1=23 ;
+        System.out.println("ハローJAVA"+(num+num1)) ;
+        
+        String name ;
+        name = "山田太郎" ;
+        int age ;
+        age = 18 ;
+        double height ;
+        height = 170.5 ;
+        double weight ;
+        weight = 62.2 ;
+        String favoriteFood ;
+        favoriteFood = "寿司" ;
+        
+        System.out.println("初めまして"+name+"です") ;
+        System.out.println("年齢は"+age+"歳です") ;
+        System.out.println("身長は"+height+"cmです") ;
+        System.out.println("体重は"+weight+"kgです") ;
+        System.out.println("好きな食べ物は"+favoriteFood+"です") ;
+        System.out.println("BMIは"+(weight/height/height*10000)+"です") ;
   }
 }
