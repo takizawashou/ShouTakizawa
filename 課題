@@ -1,0 +1,36 @@
+public class Main {
+  public static void main(String[] args) { 
+        byte byteVar = 0 ;
+        byteVar = 10 ;
+        short shortVar = 0 ;
+        shortVar = 100 ;
+        int intVar = 0 ;
+        intVar = 1000 ;
+        long longVar = 0L ;
+        longVar = 10000L ;
+        float floatVar = 0.0f ;
+        floatVar = 9.5f ;
+        double doubleVar = 0.0 ;
+        doubleVar = 10.5f ;
+        char charVar = '¥u0000' ;
+        charVar = 'a' ;
+        String stringVar = "なし" ;
+        stringVar = "ハロー" ;
+        boolean booleanVar = false ;
+        booleanVar = true ;
+        
+        System.out.println(byteVar) ;
+        System.out.println(shortVar) ;
+        System.out.println(intVar) ;
+        System.out.println(longVar) ;
+        System.out.println(floatVar) ;
+        System.out.println(doubleVar) ;
+        System.out.println(charVar) ;
+        System.out.println(stringVar) ;
+        System.out.println(booleanVar) ;
+        System.out.println(byteVar + shortVar + intVar + longVar + floatVar + doubleVar) ;
+        System.out.println(byteVar * shortVar * intVar * longVar) ;
+        System.out.println(doubleVar / shortVar) ;
+        System.out.println(byteVar - shortVar) ;
+  }
+}
