@@ -12,10 +12,10 @@ public class Main {
         floatVar = 9.5f ;
         double doubleVar = 0.0 ;
         doubleVar = 10.5 ;
-        char charVar = '¥u0000' ;
+        char charVar = '\u0000' ;
         charVar = 'a' ;
         String stringVar = "なし" ;
-        stringVar = "ハロー" ;
+        stringVar = "null" ;
         boolean booleanVar = false ;
         booleanVar = true ;
         
@@ -41,10 +41,10 @@ public class Main {
         name = "山田太郎" ;
         int age ;
         age = 18 ;
-        double height ;
-        height = 170.5 ;
-        double weight ;
-        weight = 62.2 ;
+        float height ;
+        height = 170.5f ;
+        float weight ;
+        weight = 62.2f ;
         String favoriteFood ;
         favoriteFood = "寿司" ;
         
@@ -54,5 +54,58 @@ public class Main {
         System.out.println("体重は"+weight+"kgです") ;
         System.out.println("好きな食べ物は"+favoriteFood+"です") ;
         System.out.println("BMIは"+(weight/height/height*10000)+"です") ;
+        
+        name = "鈴木一郎" ;
+        age = 24 ;
+        height = 168.5f ;
+        weight = 64.2f ;
+        favoriteFood = "オムライス" ;
+        float bmi = 0.0f ;
+        bmi = weight/height/height*10000f ;
+        
+        System.out.println("初めまして"+name+"です") ;
+        System.out.println("年齢は"+age+"歳です") ;
+        System.out.println("身長は"+height+"cmです") ;
+        System.out.println("体重は"+weight+"kgです") ;
+        System.out.println("好きな食べ物は"+favoriteFood+"です") ;
+        System.out.println("BMIは"+bmi+"です") ;
+        
+        name = "鈴木一郎" ;
+        age = 48 ;
+        height = 337.0f ;
+        weight = 128.4f ;
+        favoriteFood = "オムライス" ;
+        bmi = weight/height/height*10000f ;
+        
+        System.out.println("初めまして"+name+"です") ;
+        System.out.println("年齢は"+age+"歳です") ;
+        System.out.println("身長は"+height+"cmです") ;
+        System.out.println("体重は"+weight+"kgです") ;
+        System.out.println("好きな食べ物は"+favoriteFood+"です") ;
+        System.out.println("BMIは"+bmi+"です") ;
+        
+        boolean result ;
+        result = age >= 25 ;
+        System.out.println(result) ;
+        
+        age = 24 ;
+        height = 168.5f ;
+        weight = 64.2f ;
+        String ageStr = Integer.toString(age) ;
+        String heightStr = Float.toString(height) ;
+        String weightStr = Float.toString(weight) ;
+        System.out.println("年齢は"+age+"歳です") ;
+        System.out.println("身長は"+height+"cmです") ;
+        System.out.println("体重は"+weight+"kgです") ;
+        
+        int age2 = Integer.parseInt(ageStr);
+        float height2 = Float.parseFloat(heightStr);
+        
+        System.out.println("年齢は"+age2+"歳です") ;
+        System.out.println("身長は"+height2+"cmです") ;
+        
+        boolean result2 ;
+        result2 = (age2 >= 25) || (height2 >= 160);
+        System.out.println(result);
   }
 }
