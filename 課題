@@ -15,7 +15,7 @@ public class Main {
         char charVar = '\u0000' ;
         charVar = 'a' ;
         String stringVar = "なし" ;
-        stringVar = "null" ;
+        stringVar = null ;
         boolean booleanVar = false ;
         booleanVar = true ;
         
@@ -48,12 +48,12 @@ public class Main {
         String favoriteFood ;
         favoriteFood = "寿司" ;
         
-        System.out.println("初めまして"+name+"です") ;
-        System.out.println("年齢は"+age+"歳です") ;
-        System.out.println("身長は"+height+"cmです") ;
-        System.out.println("体重は"+weight+"kgです") ;
-        System.out.println("好きな食べ物は"+favoriteFood+"です") ;
-        System.out.println("BMIは"+(weight/height/height*10000)+"です") ;
+        System.out.println("初めまして" + name + "です") ;
+        System.out.println("年齢は" + age + "歳です") ;
+        System.out.println("身長は" + height + "cmです") ;
+        System.out.println("体重は" + weight + "kgです") ;
+        System.out.println("好きな食べ物は" + favoriteFood + "です") ;
+        System.out.println("BMIは" + (weight/height/height*10000) + "です") ;
         
         name = "鈴木一郎" ;
         age = 24 ;
@@ -63,12 +63,12 @@ public class Main {
         float bmi = 0.0f ;
         bmi = weight/height/height*10000f ;
         
-        System.out.println("初めまして"+name+"です") ;
-        System.out.println("年齢は"+age+"歳です") ;
-        System.out.println("身長は"+height+"cmです") ;
-        System.out.println("体重は"+weight+"kgです") ;
-        System.out.println("好きな食べ物は"+favoriteFood+"です") ;
-        System.out.println("BMIは"+bmi+"です") ;
+        System.out.println("初めまして" + name + "です") ;
+        System.out.println("年齢は" + age + "歳です") ;
+        System.out.println("身長は" + height + "cmです") ;
+        System.out.println("体重は" + weight + "kgです") ;
+        System.out.println("好きな食べ物は" + favoriteFood + "です") ;
+        System.out.println("BMIは" + bmi + "です") ;
         
         name = "鈴木一郎" ;
         age = 48 ;
@@ -77,12 +77,12 @@ public class Main {
         favoriteFood = "オムライス" ;
         bmi = weight/height/height*10000f ;
         
-        System.out.println("初めまして"+name+"です") ;
-        System.out.println("年齢は"+age+"歳です") ;
-        System.out.println("身長は"+height+"cmです") ;
-        System.out.println("体重は"+weight+"kgです") ;
-        System.out.println("好きな食べ物は"+favoriteFood+"です") ;
-        System.out.println("BMIは"+bmi+"です") ;
+        System.out.println("初めまして" + name + "です") ;
+        System.out.println("年齢は" + age + "歳です") ;
+        System.out.println("身長は" + height + "cmです") ;
+        System.out.println("体重は" + weight + "kgです") ;
+        System.out.println("好きな食べ物は" + favoriteFood + "です") ;
+        System.out.println("BMIは" + bmi + "です") ;
         
         boolean result ;
         result = age >= 25 ;
@@ -94,18 +94,18 @@ public class Main {
         String ageStr = Integer.toString(age) ;
         String heightStr = Float.toString(height) ;
         String weightStr = Float.toString(weight) ;
-        System.out.println("年齢は"+age+"歳です") ;
-        System.out.println("身長は"+height+"cmです") ;
-        System.out.println("体重は"+weight+"kgです") ;
+        System.out.println("年齢は" + age + "歳です") ;
+        System.out.println("身長は" + height + "cmです") ;
+        System.out.println("体重は" + weightStr + "kgです") ;
         
         int age2 = Integer.parseInt(ageStr);
         float height2 = Float.parseFloat(heightStr);
         
-        System.out.println("年齢は"+age2+"歳です") ;
-        System.out.println("身長は"+height2+"cmです") ;
+        System.out.println("年齢は" + age2 + "歳です") ;
+        System.out.println("身長は" + height2 + "cmです") ;
         
         boolean result2 ;
         result2 = (age2 >= 25) || (height2 >= 160);
-        System.out.println(result);
+        System.out.println(result2);
   }
 }
