@@ -1,0 +1,22 @@
+package basicClass;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class Animal {
+	public static void main(String[] args) {
+
+		Dog dog1 = new Dog(1);
+		System.out.println("動物の名前: " + dog1.getName());
+
+
+		Dog dog2 = new Dog(3);
+		System.out.println("動物の数: " + dog2.getCount());
+
+
+		LocalDateTime now = LocalDateTime.now();
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd H:m:s");
+		String formattedDate = now.format(formatter);
+		System.out.println("現在の日時: " + formattedDate);
+	}
+}
