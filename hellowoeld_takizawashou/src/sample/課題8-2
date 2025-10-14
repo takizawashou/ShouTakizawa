@@ -1,0 +1,25 @@
+package basicClass;
+
+public class Dog {
+
+	private String name;
+
+
+	private int count;
+
+
+	public Dog(int count) {
+		this.name = "犬";
+		this.count = count;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public int getCount() {
+		return count;
+	}
+}
