@@ -1,6 +1,9 @@
+package question3;
+
 import java.util.Random;
 
-public class Main {
+
+public class 課題que3 {
 
     public static void printMessage(String str, int num) {
         System.out.println("Hello JavaSE 11");
@@ -78,3 +81,5 @@ public class Main {
         isAverageAbove50(avg);
     }
 }
+
+

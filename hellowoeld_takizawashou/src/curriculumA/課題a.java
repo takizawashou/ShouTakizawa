@@ -1,4 +1,6 @@
-public class Main {
+package curriculumA;
+
+public class 課題a {
   public static void main(String[] args) { 
         byte byteVar = 0 ;
         byteVar = 10 ;

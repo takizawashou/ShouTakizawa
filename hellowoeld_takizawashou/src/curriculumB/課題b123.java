@@ -1,14 +1,17 @@
-import java.util.Scanner;
-import java.util.Random;
+package curriculumB;
 
-public class Main {
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class 課題b123 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
 String username;
 while (true) {
         System.out.print("ユーザー名を入力してください: ");
-        String username = scanner.nextLine();
+        username = scanner.nextLine();
 
         if (username == null || username.trim().isEmpty()) {
             System.out.println("名前を入力してください");
@@ -18,9 +21,9 @@ while (true) {
             System.out.println("半角英数字のみで名前を入力してください");
         } else {
             System.out.println("ユーザー名「" + username + "」を登録しました");
-        }
            break;
         }
+}
 
         int rounds = 0;
         Random random = new Random();

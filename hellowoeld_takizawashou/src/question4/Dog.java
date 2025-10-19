@@ -1,4 +1,4 @@
-package basicClass;
+package question4;
 
 public class Dog {
 
@@ -23,3 +23,5 @@ public class Dog {
 		return count;
 	}
 }
+
+
