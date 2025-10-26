@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Task_que3 {
 
-    public static void printMessage(String str, int num) {
+    public static void Hello( ) {
         System.out.println("Hello JavaSE 11");
     }
 
@@ -21,7 +21,7 @@ public class Task_que3 {
         }
     }
 
-    public static void add(double a, double b) {
+    public static void multiply(double a, double b) {
         double result = a + b;
         System.out.println("小数の和: " + result);
     }
@@ -59,7 +59,7 @@ public class Task_que3 {
 
     public static void main(String[] args) {
 
-        printMessage("Java", 11);
+    	Hello();
 
 
         multiply(5, 7);
@@ -69,7 +69,7 @@ public class Task_que3 {
         printArray(sampleArray);
 
 
-        add(3.5, 2.7);
+        multiply(3.5, 2.7);
 
   
         int[] randomNumbers = generateRandomNumbers(5);
