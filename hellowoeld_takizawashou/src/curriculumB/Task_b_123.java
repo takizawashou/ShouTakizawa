@@ -4,7 +4,7 @@ package curriculumB;
 import java.util.Random;
 import java.util.Scanner;
 
-public class 課題b123 {
+public class Task_b_123 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

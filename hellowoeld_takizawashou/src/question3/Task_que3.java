@@ -3,7 +3,7 @@ package question3;
 import java.util.Random;
 
 
-public class 課題que3 {
+public class Task_que3 {
 
     public static void printMessage(String str, int num) {
         System.out.println("Hello JavaSE 11");

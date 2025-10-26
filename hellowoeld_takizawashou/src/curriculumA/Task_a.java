@@ -1,6 +1,6 @@
 package curriculumA;
 
-public class 課題a {
+public class Task_a {
   public static void main(String[] args) { 
         byte byteVar = 0 ;
         byteVar = 10 ;
