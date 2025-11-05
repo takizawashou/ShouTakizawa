@@ -5,8 +5,8 @@ import java.util.Random;
 
 public class Task_que3 {
 
-    public static void Hello( ) {
-        System.out.println("Hello JavaSE 11");
+    public static void Hello( String str, int num) {
+        System.out.println(str + num);
     }
 
     public static void multiply(int a, int b) {
@@ -59,7 +59,7 @@ public class Task_que3 {
 
     public static void main(String[] args) {
 
-    	Hello();
+    	Hello( "HelloJavaSE ", 11);
 
 
         multiply(5, 7);
