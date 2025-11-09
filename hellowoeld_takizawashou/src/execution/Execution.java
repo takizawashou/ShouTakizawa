@@ -3,14 +3,14 @@ package execution;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import process.process;
+import process.Process;
 
 
-public class execution {
+public class Execution {
 
     public static void main(String[] args) {
 
-       process msg = new process("こんにちは！", "日本", "寿司", "和食");
+       Process msg = new Process("こんにちは！", "日本", "寿司", "和食");
     	
     	
        System.out.print( msg.greeting + "ここは" + msg.place + "です！");
