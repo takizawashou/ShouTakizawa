@@ -2,17 +2,16 @@ package adventure;
 
 import java.util.Scanner;
 
-import status.Status;
+import status.PlayerStatus;
 
 public class Adventure {
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("名前を入力してください：");
-		String name = scanner.nextLine();
-
-		// プレイヤーステータス作成（コンストラクタで name を渡す）
-		Status player = new Status(name);
+        System.out.print("名前を入力してください：");
+        String name = scanner.nextLine();
+        
+        PlayerStatus player = new PlayerStatus(name);
 
 		// 表示
 		System.out.println("\nこんにちは 「" + player.getName() + "」 さん");

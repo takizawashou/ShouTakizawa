@@ -9,8 +9,8 @@ public class Status {
 	private int defense;
 
 	public Status(String name) {
-        this.name = name;
-    }
+		this.name = name;
+	}
 
 	// getter & setter
 	public String getName() {
