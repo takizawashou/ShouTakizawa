@@ -10,10 +10,10 @@ public class PlayerStatus extends Status {
 		Random rand = new Random();
 
 		// 毎回ランダム
-		setHp(rand.nextInt(1000)); // 100～999
-		setMp(rand.nextInt(1000));
-		setAttack(rand.nextInt(1000));
-		setSpeed(rand.nextInt(1000));
-		setDefense(rand.nextInt(1000));
+		setHp(rand.nextInt(900) + 100); // 100～999
+		setMp(rand.nextInt(900) + 100);
+		setAttack(rand.nextInt(900) + 100);
+		setSpeed(rand.nextInt(900) + 100);
+		setDefense(rand.nextInt(900) + 100);
 	}
 }
