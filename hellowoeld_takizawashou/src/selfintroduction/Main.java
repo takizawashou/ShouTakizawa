@@ -1,13 +1,14 @@
 package selfintroduction;
 
 public class Main {
-	public static void main(String[] args) {
-		Person person1 = new Person("鈴木太郎", 20, 1.7, 60.0);
+    public static void main(String[] args) {
 
-		System.out.println("名前は" + person1.getName() + "です");
-		System.out.println("年は" + person1.getAge() + "です");
-		System.out.println("BMIは" + person1.bmi() + "です");
+        Person person1 = new Person("鈴木太郎", 20, 1.7, 60);
+        person1.print();
 
-		System.out.println("合計" + Person.getCount() + "人です");
-	}
+        Person person2 = new Person("山田花子", 22, 1.5, 40);
+        person2.print();
+
+        Person.printCount();
+    }
 }

@@ -1,38 +1,34 @@
 package selfintroduction;
 
 public class Person {
-	// インスタンスフィールドを定義
-	private String name;
-	private int age;
-	private double height;
-	private double weight;
-	private static int count = 0;
+    private String name;
+    private int age;
+    private double height;
+    private double weight;
 
-	// コンストラクタを定義しインスタンスフィールドに値をセット
-	public Person(String name, int age, double height, double weight) {
+    // 人数カウント
+    private static int count = 0;
 
-		this.name = name;
-		this.age = age;
-		this.height = height;
-		this.weight = weight;
-		count++;
+    Person(String name, int age, double height, double weight) {
+        this.name = name;
+        this.age = age;
+        this.height = height;
+        this.weight = weight;
 
-	}
+        count++;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public double bmi() {
+        return this.weight / this.height / this.height;
+    }
 
-	public int getAge() {
-		return age;
-	}
+    public void print() {
+        System.out.println("名前は" + this.name + "です");
+        System.out.println("年は" + this.age + "です");
+    }
 
-	public double bmi() {
-		double bmi = this.weight / (this.height * this.height);
-		return Math.round(bmi * 100) / 100.0;
-	}
-
-	public static int getCount() {
-		return count;
-	}
+    // クラスメソッド
+    public static void printCount() {
+        System.out.println("合計" + count + "人です");
+    }
 }
