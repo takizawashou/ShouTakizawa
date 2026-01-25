@@ -14,7 +14,6 @@ public class Person {
 		this.weight = weight;
 		count++;
 	}
-
 	public String getName() {
 		return name;
 	}
